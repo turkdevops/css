@@ -1,0 +1,217 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - semantic-release > @semantic-release/npm > npm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libcipm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libcipm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/npm > npm > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-08-11T00:00:31.167Z'
+  SNYK-JS-LODASH-567746:
+    - '@storybook/react > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - cssstats > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - eslint > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - table > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-scss > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/addon-viewport > @storybook/components > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > babel-plugin-react-docgen > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - eslint > table > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - eslint-plugin-github > eslint-plugin-flowtype > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - eslint-plugin-github > eslint-plugin-graphql > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - eslint-plugin-github > eslint-plugin-import > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - eslint-plugin-github > inquirer > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - gh-pages > async > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - postcss-node-sass > node-sass > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - styled-components > babel-plugin-styled-components > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint > table > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-config-primer > stylelint-no-unsupported-browser-features > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-config-primer > stylelint-order > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-config-primer > stylelint-scss > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @svgr/webpack > @babel/core > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - eslint-plugin-github > babel-eslint > @babel/traverse > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/addon-viewport > @storybook/api > telejson > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > babel-preset-minify > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > html-webpack-plugin > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > inquirer > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > react-dev-utils > inquirer > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - eslint-plugin-github > eslint-plugin-graphql > graphql-config > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - postcss-node-sass > node-sass > sass-graph > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-commits-parser > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-config-primer > stylelint-no-unsupported-browser-features > stylelint > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-config-primer > stylelint-order > postcss-sorting > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @svgr/webpack > @svgr/plugin-jsx > @babel/core > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - eslint-plugin-github > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > telejson > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > babel-preset-minify > babel-plugin-minify-dead-code-elimination > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > react-dev-utils > inquirer > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - eslint-plugin-github > eslint-plugin-graphql > graphql-config > graphql-import > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - postcss-node-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-config-primer > stylelint-no-unsupported-browser-features > stylelint > postcss-reporter > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-config-primer > stylelint-no-unsupported-browser-features > stylelint > table > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - eslint-plugin-github > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > @storybook/client-api > @storybook/channel-postmessage > telejson > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-config-primer > stylelint-no-unsupported-browser-features > stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/addon-viewport > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - eslint-plugin-github > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-config-primer > stylelint-no-unsupported-browser-features > stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @svgr/webpack > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-config-primer > stylelint-no-unsupported-browser-features > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-config-primer > stylelint-no-unsupported-browser-features > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/components > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-config-primer > stylelint-no-unsupported-browser-features > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - stylelint-config-primer > stylelint-no-unsupported-browser-features > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-08-11T00:00:31.167Z'
+    - '@storybook/react > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-08-11T00:00:31.167Z'

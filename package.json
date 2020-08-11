@@ -37,10 +37,13 @@
     "build-storybook": "build-storybook -o .storybuild",
     "test": "npm-run-all -s test-urls test-migrate",
     "test-urls": "script/test-doc-urls.js",
-    "test-migrate": "script/test-migrate"
+    "test-migrate": "script/test-migrate",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@primer/octicons": "^9.1.1"
+    "@primer/octicons": "^9.1.1",
+    "snyk": "^1.372.0"
   },
   "devDependencies": {
     "@octokit/rest": "^16.34.0",
@@ -52,7 +55,7 @@
     "css-loader": "1.0.0",
     "cssstats": "3.3.0",
     "details-dialog-element": "^1.4.0",
-    "eslint": "4.19.1",
+    "eslint": "5.0.0",
     "eslint-plugin-github": "1.0.0",
     "filesize": "4.1.2",
     "fs-extra": "^4.0.2",
@@ -70,12 +73,12 @@
     "postcss-scss": "2.0.0",
     "postcss-value-parser": "^4.0.2",
     "prop-types": "^15.6.2",
-    "semantic-release": "^15.13.27",
+    "semantic-release": "^17.0.7",
     "semver": "5.7.1",
     "stream-buffers": "^3.0.2",
-    "style-loader": "^0.18.2",
+    "style-loader": "^0.20.0",
     "styled-components": "4.1.2",
-    "stylelint": "^10.1.0",
+    "stylelint": "^13.0.0",
     "stylelint-config-primer": "^9.0.0",
     "stylelint-disable": "^0.1.5",
     "stylelint-only": "^1.0.1",
@@ -86,5 +89,6 @@
     "unist-util-select": "^2.0.2",
     "unist-util-stringify-position": "^2.0.1",
     "unist-util-visit": "^1.4.1"
-  }
+  },
+  "snyk": true
 }
