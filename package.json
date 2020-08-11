@@ -53,7 +53,7 @@
     "cssstats": "3.3.0",
     "details-dialog-element": "^1.4.0",
     "eslint": "4.19.1",
-    "eslint-plugin-github": "1.0.0",
+    "eslint-plugin-github": "1.10.0",
     "filesize": "4.1.2",
     "fs-extra": "^4.0.2",
     "gh-pages": "^1.0.0",
