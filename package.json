@@ -79,7 +79,7 @@
     "stylelint-config-primer": "^9.0.0",
     "stylelint-disable": "^0.1.5",
     "stylelint-only": "^1.0.1",
-    "stylelint-scss": "^3.12.0",
+    "stylelint-scss": "^3.18.0",
     "table": "5.2.3",
     "typographic-base": "^1.0.4",
     "unified": "^7.1.0",
