@@ -40,13 +40,13 @@
     "test-migrate": "script/test-migrate"
   },
   "dependencies": {
-    "@primer/octicons": "^9.1.1"
+    "@primer/octicons": "^9.6.0"
   },
   "devDependencies": {
-    "@octokit/rest": "^16.34.0",
+    "@octokit/rest": "^16.43.2",
     "@storybook/addon-viewport": "5.3.18",
     "@storybook/react": "5.3.18",
-    "autoprefixer": "9.4.7",
+    "autoprefixer": "9.8.5",
     "code-blocks": "^1.1.0",
     "colorette": "^1.1.0",
     "css-loader": "1.0.0",
@@ -62,7 +62,7 @@
     "minimist": "1.2.3",
     "node-fetch": "2.4.0",
     "npm-run-all": "4.1.5",
-    "postcss": "7.0.14",
+    "postcss": "7.0.32",
     "postcss-import": "^12.0.1",
     "postcss-load-config": "2.0.0",
     "postcss-loader": "^2.0.6",
