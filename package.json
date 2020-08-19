@@ -40,13 +40,13 @@
     "test-migrate": "script/test-migrate"
   },
   "dependencies": {
-    "@primer/octicons": "^9.1.1"
+    "@primer/octicons": "^9.6.0"
   },
   "devDependencies": {
-    "@octokit/rest": "^16.34.0",
+    "@octokit/rest": "^16.43.2",
     "@storybook/addon-viewport": "5.3.18",
     "@storybook/react": "5.3.18",
-    "autoprefixer": "9.4.7",
+    "autoprefixer": "9.8.5",
     "code-blocks": "^1.1.0",
     "colorette": "^1.1.0",
     "css-loader": "1.0.0",
@@ -74,7 +74,7 @@
     "semver": "5.7.1",
     "stream-buffers": "^3.0.2",
     "style-loader": "^0.18.2",
-    "styled-components": "4.1.2",
+    "styled-components": "4.4.1",
     "stylelint": "^10.1.0",
     "stylelint-config-primer": "^9.0.0",
     "stylelint-disable": "^0.1.5",
