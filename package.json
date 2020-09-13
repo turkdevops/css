@@ -42,7 +42,7 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@primer/octicons": "^9.1.1",
+    "@primer/octicons": "^9.6.0",
     "snyk": "^1.372.0"
   },
   "devDependencies": {
