@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "@primer/octicons": "^9.1.1",
-    "snyk": "^1.372.0"
+    "snyk": "^1.420.1"
   },
   "devDependencies": {
     "@octokit/rest": "^16.34.0",
