@@ -43,12 +43,12 @@
   },
   "dependencies": {
     "@primer/octicons": "^9.1.1",
-    "snyk": "^1.420.1"
+    "snyk": "^1.425.4"
   },
   "devDependencies": {
     "@octokit/rest": "^16.34.0",
-    "@storybook/addon-viewport": "5.3.18",
-    "@storybook/react": "5.3.18",
+    "@storybook/addon-viewport": "6.1.0",
+    "@storybook/react": "6.1.0",
     "autoprefixer": "9.4.7",
     "code-blocks": "^1.1.0",
     "colorette": "^1.1.0",
